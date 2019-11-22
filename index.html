@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>body{
+    color:white;
+  }
+  header,footer{
+    height:3em;
+  }
+    @media screen  and (min-width:1120px){
+      .content-area{
+        display:flex;
+      }
+      .side-bar{
+        flex:0 0 20%;
+      }
+      .content{
+        flex-grow:1;
+      }
+
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="outer-wrap">
+
+        <header class="site-header">
+           
+        </header><!-- .site-header -->
+
+        <div class="content-area">
+              <div class="sidebar-left side-bar"></div>
+              <main class="main-content-area content">
+                  <app-root></app-root>
+              </main>
+              <div class="sidebar-right side-bar"></div> 
+        </div>
+        
+
+        <!-- THE FOOTER -->
+        <footer class="site-footer">
+           
+        </footer>
+
+    </div><!-- .outer-wrap -->
+  
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+</html>
